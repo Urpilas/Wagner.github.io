@@ -29,7 +29,7 @@ body {
     grid-column-start: 3;
     grid-column-end: 20;
     font-size: 100px;
-    
+    padding-right: 35px;
 }
 
 .Moi {
