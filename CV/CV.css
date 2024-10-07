@@ -1,6 +1,6 @@
 .Intro {
     display: grid;
-    grid-template-columns:  ;
+    grid-template-columns:1fr 1fr ;
     background-color: black;
     color: white;
     border: solid 5px white;
@@ -90,4 +90,5 @@ body {
     border-radius: 20px;
     background-color: gray;
     text-align: justify;
+    margin-top: 10px;
 }
