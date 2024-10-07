@@ -1,0 +1,93 @@
+.Intro {
+    display: grid;
+    grid-template-columns:  ;
+    background-color: black;
+    color: white;
+    border: solid 5px white;
+    border-radius: 20px;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    margin-left:500px;
+    margin-right:500px;
+}
+
+.Logo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Nom {
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 20;
+    font-size: 100px;
+    
+}
+
+.Moi {
+    color: black;
+    margin: 30px;
+}
+
+.email {
+    height: 30px;
+    width: 30px;
+}
+
+.Myemail {
+    font-size: 18px;
+    text-align: left;
+}
+
+.Mytel {
+    font-size: 20px;
+}
+
+.tel {
+    height: 30px;
+    width: 30px;
+}
+
+.Myage {
+    font-size: 20px
+}
+
+.container {
+    background-color: white;
+    border: solid black 5px;
+    border-radius: 20px;
+    max-inline-size: 20%;
+    background-color: gray;
+    padding-right: 75px;
+    margin-right: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.compétence {
+    border: solid black 5px;
+    border-radius: 20px;
+    background-color: gray;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.étude {
+    padding: 5px;
+    border: solid black 5px;
+    border-radius: 20px;
+    background-color: gray;
+    text-align: justify;
+}
